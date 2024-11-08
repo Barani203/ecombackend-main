@@ -77,6 +77,10 @@ h2{
     margin-top: 5%;
 
 }
+.mt-0 {
+    margin-top: 0 !important;
+  }
+  
 .continue{
     background-color: #1F2587;
     color: white;

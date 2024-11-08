@@ -7,16 +7,16 @@ function Login() {
         <div className="row justify-content-center mt-2 mb-2">
             <img className=""  style = { {width :200}}src="../img/img2.jpg" ></img>
         </div>
-        <div className="row justify-content-center mb-3" style={{color:"blue"}}>
+        <div className="row justify-content-center mb-1" style={{color:"#1F2587"}}>
             <div className="col-sm-5 ">
            <h5>Health Desk</h5>
             </div>
         </div>
   
-        <div className="row justify-content-center mb-1">
-            <div className="col-sm-5 ">
-           <h2>Corporate Login</h2>
-           <h6 style={{color:"blue"}}> Hi, Welcome Back!</h6>
+        <div className="row justify-content-center mt-0">
+            <div className="col-sm-5  text-center">
+           <h2 className="text-center"> Corporate Login</h2>
+           <h6 className="mt-0" style={{color:"#1F2587"}}> Hi, Welcome Back!</h6>
             </div>
         </div>
 
@@ -30,14 +30,14 @@ function Login() {
               </label>
             </div>
 
-            <div data-mdb-input-init class="form-outline mb-4">
+            <div data-mdb-input-init class="form-outline mb-1">
               <input type="password" id="form2Example2" class="form-control" />
               <label class="form-label" for="form2Example2">
                 Password
               </label>
             </div>
 
-            <div class="row mb-4">
+            <div class="row mb-0">
               <div class="col d-flex justify-content-center">
                 <div class="form-check">
                   <input
@@ -63,7 +63,7 @@ function Login() {
               type="button"
               data-mdb-button-init
               data-mdb-ripple-init
-              class="bt"
+              class="btn  btn-floating mx-1 mt-0 mb-1"
             >
               Sign in
             </button></Link>
@@ -77,7 +77,7 @@ function Login() {
                 type="button"
                 data-mdb-button-init
                 data-mdb-ripple-init
-                class="btn btn-link btn-floating mx-1"
+                class="btn btn-link btn-floating mx-1 mt-0"
               >
                 <i class="fab fa-facebook-f"></i>
               </button>
@@ -86,7 +86,7 @@ function Login() {
                 type="button"
                 data-mdb-button-init
                 data-mdb-ripple-init
-                class="btn btn-link btn-floating mx-1"
+                class="btn btn-link btn-floating mx-1 mt-0"
               >
                 <i class="fab fa-google"></i>
               </button>
@@ -95,7 +95,7 @@ function Login() {
                 type="button"
                 data-mdb-button-init
                 data-mdb-ripple-init
-                class="btn btn-link btn-floating mx-1"
+                class="btn btn-link btn-floating mx-1 mt-0"
               >
                 <i class="fab fa-twitter"></i>
               </button>
@@ -104,7 +104,7 @@ function Login() {
                 type="button"
                 data-mdb-button-init
                 data-mdb-ripple-init
-                class="btn btn-link btn-floating mx-1"
+                class="btn btn-link btn-floating mx-1 mt-0"
               >
                <a href="https://github.com/Barani203"> <i class="fab fa-github"></i></a>
               </button>
